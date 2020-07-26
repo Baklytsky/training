@@ -1,0 +1,91 @@
+/*----------------------------------------------------------------------------------//
+//------------------------------RESET DEFAULT STYLES--------------------------------//
+//----------------------------------------------------------------------------------*/
+/* Camphor
+   -------------------------------------------------------------------------------------------- */
+
+/* Camphor Light */
+@font-face {
+    font-display: swap;
+    font-family: 'Camphor';
+    font-weight: 300;
+    src: url('https://fonts.hlxcdn.com/fonts/camphor/CamphorStd-Light.woff');
+}
+
+/* Camphor Regular */
+@font-face {
+    font-display: swap;
+    font-family: 'Camphor';
+    font-weight: 400;
+    src: url('https://fonts.hlxcdn.com/fonts/camphor/CamphorStd-Regular.woff');
+}
+
+/* Camphor Medium */
+@font-face {
+    font-display: swap;
+    font-family: 'Camphor';
+    font-weight: 500;
+    src: url('https://fonts.hlxcdn.com/fonts/camphor/CamphorStd-Medium.woff');
+}
+
+/* Camphor Bold */
+@font-face {
+    font-display: swap;
+    font-family: 'Camphor';
+    font-weight: 600;
+    src: url('https://fonts.hlxcdn.com/fonts/camphor/CamphorStd-Bold.woff');
+}
+
+/* Tiempos Headline
+   -------------------------------------------------------------------------------------------- */
+
+/* Tiempos Headline Regular */
+@font-face {
+    font-display: swap;
+    font-family: 'TiemposHeadline';
+    font-weight: 400;
+    src: url('https://fonts.hlxcdn.com/fonts/tiempos-headline/TiemposHeadlineWeb-Regular.woff');
+}
+
+/* TT Norms
+   -------------------------------------------------------------------------------------------- */
+
+/* TT Norms Regular */
+@font-face {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 400;
+    src: url('https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff');
+}
+
+/* TT Norms Medium */
+@font-face {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 500;
+    src: url('https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Medium.woff');
+}
+
+/* TT Norms Bold */
+@font-face {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 700;
+    src: url('https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Bold.woff');
+}
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:16px TTNorms, Camphor, Arial, Calibri, Tahoma, sans-serif;  color:#383838; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
+    padding:0;
+    margin:0;
+    outline:none;
+    list-style:none;
+}
+p                              { font: 16px TTNorms, Camphor, Arial, Calibri, arial, Tahoma, sans-serif; line-height: 1.5; }
+select, input, textarea        { font: 20px TTNorms, Camphor, Arial, Calibri, arial, Tahoma, sans-serif; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { text-decoration:none;}
